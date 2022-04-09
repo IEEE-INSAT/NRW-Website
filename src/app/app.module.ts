@@ -3,14 +3,38 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavBarComponent } from './Shared/nav-bar/nav-bar.component';
+import { HomePageComponent } from './Pages/home-page/home-page.component';
+import { FooterComponent } from './Shared/footer/footer.component';
+import { HackathonComponent } from './Pages/hackathon/hackathon.component';
+import { NRWJuniorComponent } from './Pages/nrw-junior/nrw-junior.component';
+import { WorshopsComponent } from './Pages/worshops/worshops.component';
+import { ForumComponent } from './Pages/forum/forum.component';
+import { SocialActivitiesComponent } from './Pages/social-activities/social-activities.component';
+import { ContactsComponent } from './Pages/contacts/contacts.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ReviewBubbleComponent } from './Shared/review-bubble/review-bubble.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavBarComponent,
+    HomePageComponent,
+    FooterComponent,
+    HackathonComponent,
+    NRWJuniorComponent,
+    WorshopsComponent,
+    ForumComponent,
+    SocialActivitiesComponent,
+    ContactsComponent,
+    ReviewBubbleComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

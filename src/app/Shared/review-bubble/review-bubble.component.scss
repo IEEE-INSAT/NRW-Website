@@ -1,0 +1,50 @@
+@import "../../../assets/color-palette.scss";
+
+
+.review{
+    background-color: $dark-purple;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.card{
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    width:500px;
+    box-shadow: 5px 5px 5px rgba(187, 142, 227, 0.555);
+    border: 1px rgba(233, 155, 238, 0.522) solid;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+img{
+    width: 250px;
+}
+.name{
+    color: $light-blue;
+    font-size: 25px;
+    margin-right: 50px;
+}
+.description{
+    padding-right: 20px;
+    color: white;
+}
+i{
+    color: $light-purple;
+    size: 2000px;
+}
+.icon{
+    width: 50px;
+}
+.image{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,144 @@
+@import "../../../assets/color-palette.scss";
+
+
+@media only screen and (max-width:750px) {
+    .count {
+      display: none;
+    }
+  }
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.856), rgba(20, 2, 16, 0.863)),
+     url(../../../assets/background/sample.jpg) ;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+#logo{
+    width: 450px;
+}
+h2{
+
+    font-family: "Spantaran";
+    color: white; 
+    font-size: 400%;
+    width: 70%;
+    text-align: center;
+}
+
+.counter{
+color: rgba(255, 255, 255, 0.74);
+font-size: 60px;
+font-family: "Spantaran";
+text-align: center;
+padding-bottom: 50px;
+padding-top: 50px;
+}
+.def{
+    color: rgba(255, 255, 255, 0.925);
+font-size: 20px;
+width: 80%;
+background-color: rgba(0, 0, 0, 0.5);
+padding: 30px 50px 30px 50px;
+}
+.block{
+    padding-top: 100px;
+    height:80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 7%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+}
+span{
+   color: $pink;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.element img{
+    width: 130px;
+}
+.element p{
+    padding-top: 20px;
+color: white;
+font-size:30px;
+font-family: "Spantaran";
+text-align: center;
+padding-bottom: 50px;
+}
+.element{
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ button{
+     margin-top:30px;
+     float: right;
+     background-color: none;
+     border-color:$pink ;
+     font-weight: bolder;
+    
+ }
+ button a{
+    text-decoration: none; 
+    color: $pink;
+ }
+ button:hover{
+     background-color:$pink;
+ }
+ button a:hover{
+     color: white;
+ }
+ .info img{
+     width:50px;
+ }
+ 
+ .info{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+.info p{
+    padding-top: 20px;
+    color: white;
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
+}
+.intels{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#myVideo{
+    position: relative;
+    height: 60%;
+    z-index: 0;
+
+}
+.overlay{
+    z-index: 2;
+}
+.intro{
+    padding-top:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+.background{
+    height:100;
+}
