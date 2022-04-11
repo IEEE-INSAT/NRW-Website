@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReviewBubbleComponent implements OnInit {
 
+  
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }

@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './Shared/nav-bar/nav-bar.component';
@@ -14,6 +13,8 @@ import { SocialActivitiesComponent } from './Pages/social-activities/social-acti
 import { ContactsComponent } from './Pages/contacts/contacts.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReviewBubbleComponent } from './Shared/review-bubble/review-bubble.component';
+import { MatSliderModule } from '@angular/material/slider';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -33,9 +34,10 @@ import { ReviewBubbleComponent } from './Shared/review-bubble/review-bubble.comp
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserModule,
     BrowserAnimationsModule,
-  ],
+    MatSliderModule,
+    NgbModule,
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -1,2 +1,138 @@
+<div class="wrap">
+    <div class="presentation" data-aos="fade-down" data-aos-duration="1500">
+        <h2>
+            Our Worshops
+        </h2>
+        <p>
+         The technical axis represents one of the most important axes of NRW, it includes a variety of workshops, related to the fields of IOT, robotics and embedded systems, its main goal is to get familiar with these domains, and to acquire some technical and soft skills, that can help the 
+    The technical axis represents one of the most important axes of NRW, it includes a variety of workshops, related to the fields of IOT, robotics and embedded systems, its main goal is to get familiar with these domains, and to acquire some technical and soft skills, that can help the participants develop their professional life.
+    
+        </p>
+    </div>
+      <section class="timeline">
+    
+        <div class="container">
+            <div class="timeline-item">
+      
+                <div class="timeline-img"></div>
+          
+                <div class="timeline-content timeline-card " data-aos="fade-right" data-aos-duration="1500">
+                  <div class="timeline-img-header"> 
+                    <img src="../../../assets/background/Worshops/cover_stm32.jpg" alt="">
+                  </div>
+                  <div class="date">Workshop 1</div>
+             <div class="content">
+               <div class="row">
+                <i class="fas fa-clock col-1"></i><span class="col-3">8AM - 12AM </span> <p class="col-8">STM 32 Microcontroller Programming
+                  without and with RTOS</p>
+               </div>
+               <div class="row">
+                <i class="fas fa-clock col-1"></i><span class="col-3">2PM - 6PM  </span> <p class="col-8">Development of an Iot based App for STM 32
+                  Microcontroller</p>
+               </div>
+            
+                        <p id="pre">Prerequisites</p>
+                    <div class="items">
+                      <p><i class="fa fa-check"></i>Basic Knowledge of C programming<br>
+                        <i class="fa fa-check"></i>Knowledge of electronics<br>
+                        <i class="fa fa-check"></i>Basic Knowledge of STM32 MicroControllers
+                        </p>
+                    </div>
+             </div>
+                </div>
+              </div>  
 
-<app-review-bubble></app-review-bubble>
+              <div class="timeline-item">
+      
+                <div class="timeline-img"></div>
+          
+                <div class="timeline-content timeline-card " data-aos="fade-left" data-aos-duration="1500">
+                  <div class="timeline-img-header"> 
+                    <img src="../../../assets/background/Worshops/linux.jpg" alt="">
+                  </div>
+                  <div class="date">Workshop 2</div>
+             <div class="content">
+               <div class="row">
+                <i class="fas fa-clock col-1"></i><span class="col-3">8AM - 12AM </span> <p class="col-8">Familiarizing with Raspberry on Linux</p>
+               </div>
+               <div class="row">
+                <i class="fas fa-clock col-1"></i><span class="col-3">2PM - 6PM  </span> <p class="col-8">Making an HCI interface  with QT on Linux <br></p>
+               </div>
+            
+                        <p id="pre">Prerequisites</p>
+                    <div class="items">
+                      <p><i class="fa fa-check"></i>Basic Knowledge of programming on Linux<br>
+                        <i class="fa fa-check"></i>Basic knowledge of C++ / electronics<br>
+                    </div>
+             </div>
+                </div>
+              </div> 
+              <div class="timeline-item">
+      
+                <div class="timeline-img"></div>
+          
+                <div class="timeline-content timeline-card " data-aos="fade-right" data-aos-duration="1500">
+                  <div class="timeline-img-header"> 
+                    <img src="../../../assets/background/Worshops/cover_stm32.jpg" alt="">
+                  </div>
+                  <div class="date">Workshop 3</div>
+             <div class="content">
+               <div class="row">
+                <i class="fas fa-clock col-1"></i><span class="col-3">8AM - 12AM </span> <p class="col-8">Preparetions for the necessary environment  and procedures for android compialtion on Raspberry Pi</p>
+               </div>
+               <div class="row">
+                <i class="fas fa-clock col-1"></i><span class="col-3">2PM - 6PM  </span> <p class="col-8">Development of an Android app for temperature monitoring and control
+                 </p>
+               </div>
+            
+                        <p id="pre">Prerequisites</p>
+                    <div class="items">
+                      <p><i class="fa fa-check"></i>Basic Knowledge of C programming<br>
+                        <i class="fa fa-check"></i>Knowledge of electronics<br>
+                        <i class="fa fa-check"></i>Basic Knowledge of STM32 MicroControllers
+                        </p>
+                    </div>
+             </div>
+                </div>
+              </div>  
+              <div class="timeline-item">
+      
+                <div class="timeline-img"></div>
+          
+                <div class="timeline-content timeline-card " data-aos="fade-left" data-aos-duration="1500">
+                  <div class="timeline-img-header"> 
+                    <img src="../../../assets/background/Worshops/cover_stm32.jpg" alt="">
+                  </div>
+                  <div class="date">Workshop 1</div>
+             <div class="content">
+               <div class="row">
+                <i class="fas fa-clock col-1"></i><span class="col-3">8AM - 12AM </span> <p class="col-8">STM 32 Microcontroller Programming
+                  without and with RTOS</p>
+               </div>
+               <div class="row">
+                <i class="fas fa-clock col-1"></i><span class="col-3">2PM - 6PM  </span> <p class="col-8">Development of an Iot based App for STM 32
+                  Microcontroller</p>
+               </div>
+            
+                        <p id="pre">Prerequisites</p>
+                    <div class="items">
+                      <p><i class="fa fa-check"></i>Basic Knowledge of C programming<br>
+                        <i class="fa fa-check"></i>Knowledge of electronics<br>
+                        <i class="fa fa-check"></i>Basic Knowledge of STM32 MicroControllers
+                        </p>
+                    </div>
+             </div>
+                </div>
+              </div>  
+
+        </div>
+      </section>
+      <ngb-carousel #carousel [interval]="2000" >
+        <ng-template ngbSlide *ngFor="let img of images">
+            <div class="picsum-img-wrapper">
+              <img id="workshop" [src]="img" >
+            </div>
+        </ng-template>
+      </ngb-carousel>
+    <app-review-bubble></app-review-bubble>
+</div>
