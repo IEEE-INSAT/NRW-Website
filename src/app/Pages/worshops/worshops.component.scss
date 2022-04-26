@@ -281,7 +281,7 @@ h2{
 }
 .content{
     padding-bottom: 30px;
-    padding-top: 130px;
+    padding-top: 10%;
 }
 .content p{
 	color: #f5f5f5;
@@ -313,10 +313,7 @@ span{
 	justify-content: center;
 
 }
-.timeline-img-header img{
-	width:100%;
-	margin-bottom: 100px;
-}
+
 .row span{
 	text-align: center;
 }
@@ -334,4 +331,7 @@ ngb-carousel{
 }
 ng-template{
 	width: 20px;
+}
+.header img{
+width: 100%;
 }
