@@ -44,7 +44,7 @@
     content: "";
     height: 100%;
     width: 50%;
-    border-radius: 110px 0 0 110px;
+    border-radius: 130px 0 0 130px;
     border: 15px solid $light-blue;
     border-right: none;
     position: absolute;
@@ -104,7 +104,7 @@
   .main-timeline .timeline:nth-child(even)::before {
     left: auto;
     right: 0;
-    border-radius: 0 110px 110px 0;
+    border-radius: 0 120px 110px 0;
     border: 15px solid $light-blue;
     border-left: none;
   }
@@ -275,7 +275,7 @@
     }
 
     img{
-        width: 50%;
+        width: 60%;
         height: 40%;
        padding-top: 8%;
        padding-left: 2%;
@@ -288,8 +288,6 @@
     }
     span{
         color: $pink;
-        font-family: 'Spantaran';
-        font-size: 40px;
     }
     .def p{
         padding: 50px;
@@ -328,4 +326,32 @@
     font-size: 400%;
     width: 70%;
     text-align: center;
+}
+.counter{
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 60px;
+  font-family: "Spantaran";
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  }
+  .def{
+  color: rgba(255, 255, 255, 0.925);
+  font-size: 20px;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px 50px 30px 50px;
+}
+
+  .block{
+      padding-top: 100px;
+      height:80%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-bottom: 7%;
+    }
+.content{
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
 }
