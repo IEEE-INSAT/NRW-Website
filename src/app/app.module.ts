@@ -18,6 +18,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ComingSoonComponent } from './Pages/coming-soon/coming-soon.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,

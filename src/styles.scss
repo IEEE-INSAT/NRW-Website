@@ -49,8 +49,39 @@ $NRW-Website-theme: mat-light-theme((
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body { height: 100%;
+ }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+  overflow-x:hidden; }
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+
+
+.counter{
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 60px;
+  font-family: "Spantaran";
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  }
+  .def{
+      color: rgba(255, 255, 255, 0.925);
+  font-size: 20px;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px 50px 30px 50px;
+  }
+  .block{
+      padding-top: 100px;
+      height:80%;
+      background-repeat: no-repeat;
+      padding-bottom: 7%;
+  }
+  .content{
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+  
+  }

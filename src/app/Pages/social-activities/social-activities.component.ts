@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-social-activities',
   templateUrl: './social-activities.component.html',
