@@ -38,7 +38,7 @@ span{
 }
 
 .horizontal .block{
-    width: 50%;
+    width: 600px;
     font-size: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -77,4 +77,10 @@ img{
 }
 #workshop{
     padding-top: 40px;
+    padding-bottom:60px;
+}
+.horizontal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
