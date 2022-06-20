@@ -1,4 +1,6 @@
+@import "../../../assets/color-palette.scss";
 .gallery {
+	padding-bottom: 50px;
 	display: flex  !important;
 	padding: 2px  !important;
 	transition: .3s  !important;
@@ -55,4 +57,38 @@
 		background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255 ,255 , 0) 100%)  !important;
 		transition: .3s  !important;
 	}
+}
+
+.wrap{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.856), rgba(20, 2, 16, 0.863)),
+url(../../../assets/background/sample.jpg) ;
+background-attachment: fixed;
+}
+.presentation{
+	padding-top: 200px;
+   padding-bottom: 100px;
+   padding-left: 70px;
+   padding-right: 70px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+.presentation p{
+	font-size: 25px;
+	color: rgba(255, 255, 255, 0.777);
+	text-align: center;
+}
+h2{
+  text-align: center;
+  font-family: "Spantaran";
+  color: $light-blue; 
+  font-size: 400%;
+  width: 70%;
+  text-align: center;
 }
