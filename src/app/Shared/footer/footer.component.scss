@@ -1,7 +1,7 @@
 @import "../../../assets/color-palette.scss";
 
 .footer{
-    padding-bottom: 100px;
+
     background-color: #1d052c;
     display: flex;
     flex-direction: column;
@@ -46,4 +46,10 @@ a:hover {
 .contact{
      color: rgba(255, 255, 255, 0.685);
     ;
+}
+.banner{
+    padding-top: 80px;
+bottom: 0;
+width: 100%;
+position: relative;
 }
