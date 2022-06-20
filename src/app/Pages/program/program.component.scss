@@ -1,3 +1,4 @@
+
 $primary: #3F51B5;
 $light-primary: #C5CAE9;
 $text: #FFFFFF;
@@ -5,6 +6,22 @@ $primary-text: #212121;
 $secondary-text: #757575;
 $accent: #FF4081;
 @import "../../../assets/color-palette.scss";
+
+.main {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.041), rgb(26, 4, 20)), url("../../../assets/background/sample.jpg");
+    padding-top: 100px;
+    background-attachment: fixed;
+}
+.program img{
+   width: 100%;
+   height: 100%; 
+}
+.program{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
 
 section {
   padding: 100px 0;
@@ -241,91 +258,37 @@ blockquote {
 	}
 	
 }
-.presentation{
-    padding-top: 200px;
-   padding-bottom: 100px;
-   padding-left: 70px;
-   padding-right: 70px;
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-   justify-content: center;
+.header img{
+    width: 100%;
+    }
+
+.packs{
+    padding-top: 50px;
+    
 }
-.presentation p{
-    font-size: 25px;
-    color: rgba(255, 255, 255, 0.777);
-    text-align: center;
+.pack{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.wrap{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.752), rgba(20, 2, 16, 0.796)), url("../../../assets/background/sample.jpg");
-    background-attachment: fixed;
-}
-h2{
-	text-align: center;
+.title{
     font-family: "Spantaran";
-    color: $light-blue; 
-    font-size: 400%;
-    width: 70%;
-    text-align: center;
+    font-size: 45px;
+    color: white;
 }
 .content{
-    padding-bottom: 30px;
-    padding-top: 10%;
+    color: rgba(255, 255, 255, 0.777);
+    text-align: justify;
+    font-size: 20px
 }
-.content p{
-	color: #f5f5f5;
+h2{
+    font-size: 400%;
+    text-align: center;
+    color: $light-blue;
+    font-family: "Spantaran";
 }
-#pre{
-	color: $light-primary;
-	font-weight: bold;
-	font-size: 20px;
-}
-.items{
-	border-left: $pink 4px solid;
-	margin-left: 30px;
-}
-i{
-	color: #5e6ecd;
-	width: 50px;
-}
-.time i{
-	color: white;
-	width: 50px;
-}
-span{
-	font-weight: bold;
-	color: $light-primary;
-	font-size: 20px;
-}
-.time{
-	display: flex;
-	justify-content: center;
-
-}
-
-.row span{
-	text-align: center;
-}
-#workshop{
-	display: block;
-	overflow: hidden;
-	height: 700px;
-	margin-right: auto;
-	margin-bottom: 12px;
-	margin-left: auto;
-	float: none;
-}
-ngb-carousel{
-	padding-bottom: 60px;
-}
-ng-template{
-	width: 20px;
-}
-.header img{
-width: 100%;
-}
-
-.row p{
-	font-family: "Spantaran";
-	font-size: 30px;
+.packs{
+    padding-right: 20px;
+    padding-left: 20px;
 }

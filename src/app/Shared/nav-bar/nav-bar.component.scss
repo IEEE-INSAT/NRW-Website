@@ -4,7 +4,6 @@
 
 nav{
     background-color: $dark-purple;
-    height: 91px;
 }
 a{
     font-size: 15px;
@@ -17,14 +16,16 @@ a:hover,.is-active{
 button span{
     color:white;
 }
-button:focus{
+button,button:focus,button:active,button:hover{
 border: none;
+background: none;
 }
 .axe{
 right: 0;
 display: flex;
 }
 img{
+    
     width: 120px;
     margin-right: 50px;
 }
@@ -39,5 +40,8 @@ i{
     color: aliceblue;
 }
 .navbar-toggler button:active{
-    border: none;
+    border-color: none;
+}
+.navbar-toggler,.navbar-toggler:focus,.navbar-toggler:active{
+    border-color: none;
 }
