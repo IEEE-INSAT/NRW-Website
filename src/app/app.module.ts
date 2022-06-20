@@ -15,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReviewBubbleComponent } from './Shared/review-bubble/review-bubble.component';
 import { MatSliderModule } from '@angular/material/slider';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ProgramComponent } from './Pages/program/program.component';
 
 
 
@@ -29,7 +30,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     WorshopsComponent,
     ForumComponent,
     SocialActivitiesComponent,
-    ReviewBubbleComponent
+    ReviewBubbleComponent,
+    ProgramComponent
   ],
   imports: [
     BrowserModule,

@@ -15,7 +15,7 @@ export class HomePageComponent implements OnInit {
   ngOnInit(): void {
   }
   demo:any;
-   countDownDate = new Date("june 24, 2022").getTime();
+   countDownDate = new Date("july 1, 2022").getTime();
    x = setInterval(()=>{
      var now = new Date().getTime();
      var distance = this.countDownDate - now;
