@@ -25,7 +25,7 @@ jobs:
           CI=false npm run build
           
       - name: 📂 Deploy in ftp server
-        uses: ls
+        uses: SamKirkland/FTP-Deploy-Action@4.2.0
 
         with:
           server: ftp.smart-sfax.org
