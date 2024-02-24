@@ -3,7 +3,7 @@ name: 🚀 DEPLOYING IEEE INSAT Student Branch's Website
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   web-deploy:
