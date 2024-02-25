@@ -31,8 +31,7 @@
               "src/styles.scss",
               "./node_modules/@fortawesome/fontawesome-free/css/all.css"
             ],
-            "scripts": [
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -127,5 +126,8 @@
       }
     }
   },
-  "defaultProject": "NRW-Website"
+  "defaultProject": "NRW-Website",
+  "cli": {
+    "analytics": "c6ae2354-cf8b-4109-ae79-e839ab40ae6a"
+  }
 }
