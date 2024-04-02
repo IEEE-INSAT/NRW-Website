@@ -7,6 +7,7 @@ import { NRWJuniorComponent } from './Pages/nrw-junior/nrw-junior.component';
 import { ProgramComponent } from './Pages/program/program.component';
 import { SocialActivitiesComponent } from './Pages/social-activities/social-activities.component';
 import { WorshopsComponent } from './Pages/worshops/worshops.component';
+import { SpeakersComponent } from './Pages/speakers/speakers.component';
 
 const routes: Routes = [
   { path:'', component:HomePageComponent},
@@ -15,11 +16,12 @@ const routes: Routes = [
   { path: 'hackathon', component:HackathonComponent},
   { path: 'social_activities', component:SocialActivitiesComponent},
   { path:'worshops', component:WorshopsComponent},
-  { path:'program', component:ProgramComponent}
+  { path:'program', component:ProgramComponent},
+  { path: 'speakers', component:SpeakersComponent}
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled' })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

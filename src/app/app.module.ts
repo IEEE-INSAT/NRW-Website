@@ -16,6 +16,7 @@ import { ReviewBubbleComponent } from './Shared/review-bubble/review-bubble.comp
 import { MatSliderModule } from '@angular/material/slider';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProgramComponent } from './Pages/program/program.component';
+import { SpeakersComponent } from './pages/speakers/speakers.component';
 
 
 
@@ -31,7 +32,8 @@ import { ProgramComponent } from './Pages/program/program.component';
     ForumComponent,
     SocialActivitiesComponent,
     ReviewBubbleComponent,
-    ProgramComponent
+    ProgramComponent,
+    SpeakersComponent
   ],
   imports: [
     BrowserModule,

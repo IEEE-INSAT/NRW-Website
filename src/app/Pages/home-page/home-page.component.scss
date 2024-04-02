@@ -115,3 +115,47 @@ padding-bottom: 50px;
 .background{
     height:100;
 }
+
+.speakers-section {
+    text-align: center;
+  
+    .speaker {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+  
+      img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+  
+      p {
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 5px;
+      }
+    }
+  
+    .btn {
+      margin-top: 20px;
+      background-color: $pink;
+      border-color: $pink;
+      font-weight: bolder;
+      color: white;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: darken($pink, 10%);
+      }
+  
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
